@@ -23,6 +23,7 @@
 (require '1a-modeline)
 (require '1a-preferences)
 (require '1a-theme)
+(require '1b-cua)
 (require '1b-package)
 (require '2a-file-system-browser)
 (require '2b-undo-tree)
