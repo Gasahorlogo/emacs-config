@@ -1,6 +1,6 @@
 ;; modeline setup
 ;; Upstream:
-;; https://github.com/RadioNoiseE/RNEmacs/blob/main/lisp/10-modeline.el
+;; https://github.com/RadioNoiseE/RNEmacs/blob/285eeb0295fd2b8928b29eedc168df7d0439e0a5/lisp/10-modeline.el
 ;; Birth:  2024-10-13 19:51:06.890442771 +0800
 ;; Modify: 2024-10-13 19 +0800
 
