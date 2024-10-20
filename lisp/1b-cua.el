@@ -6,7 +6,7 @@
 ;; 1) EmacsWiki: Cua Mode
 ;; https://www.emacswiki.org/emacs/CuaMode
 
-(require 'cua)
+;(require 'cua)
 
 (cua-mode t)
 (transient-mark-mode 1)
