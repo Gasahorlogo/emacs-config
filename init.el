@@ -10,9 +10,10 @@
 ;; 2) 为小窗优化的Emacs配置
 ;; https://radionoisee.github.io/cnt/emacs-mac.html
 
-(mapc (lambda (dir)
-	(add-to-list 'load-path (expand-file-name dir user-emacs-directory)))
-      '("lisp"))
+(mapc
+ (lambda (dir)
+   (add-to-list 'load-path (expand-file-name dir user-emacs-directory)))
+ '("lisp"))
 
 (tool-bar-mode 0)
 (menu-bar-mode 0)
