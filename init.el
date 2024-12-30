@@ -18,6 +18,8 @@
 (tool-bar-mode 0)
 (menu-bar-mode 0)
 
+(setq-default cursor-type 'hbar)
+
 (require '0a-package-archives)
 (require '0b-package)
 (require '1a-font)
