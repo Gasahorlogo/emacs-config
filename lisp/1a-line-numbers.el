@@ -13,7 +13,7 @@
                 conf-mode-hook))
         (add-hook
          mode
-         lambda ()
-         (progn (display-line-numbers-mode 1) (setq display-line-numbers-type 'relative)))))
+         (lambda ()
+           (progn (display-line-numbers-mode 1) (setq display-line-numbers-type 'relative)))))
 
 (provide '1a-line-numbers)
