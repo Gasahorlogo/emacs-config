@@ -3,6 +3,6 @@
 ;; Modify: 2024-10-13 19 +0800
 
 (add-to-list 'default-frame-alist
-	     '(font . "monospace"))
+             '(font . "monospace"))
 
 (provide '1a-font)
