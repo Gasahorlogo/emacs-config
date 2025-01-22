@@ -1,6 +1,6 @@
 ;; display line numbers
 ;; Birth:  2024-09-30 19:46:38.310234511 +0800
-;; Modify: 2024-09-30 19 +0800
+;; Modify: 2024-01-05 20 +0800
 
 (column-number-mode t) ; mode line
 (setq display-line-numbers-type 'relative) ; relative

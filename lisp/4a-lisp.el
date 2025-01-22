@@ -1,17 +1,17 @@
 ;; lisp language preferences
 ;; Birth:  2024-10-13 20:14:16.718719292 +0800
-;; Modify: 2025-01-05 20 +0800
+;; Modify: 2025-01-22 18 +0800
 
 ;; ParEdit
-(use-package paredit
-  :config ;References: EmacsWiki
-  (autoload 'enable-paredit-mode "paredit" "Turn on pseudo-structural editing of Lisp code." t)
-  (add-hook 'emacs-lisp-mode-hook       #'enable-paredit-mode)
-  (add-hook 'eval-expression-minibuffer-setup-hook #'enable-paredit-mode)
-  (add-hook 'ielm-mode-hook             #'enable-paredit-mode)
-  (add-hook 'lisp-mode-hook             #'enable-paredit-mode)
-  (add-hook 'lisp-interaction-mode-hook #'enable-paredit-mode)
-  (add-hook 'scheme-mode-hook           #'enable-paredit-mode))
+;(use-package paredit
+;  :config ;References: EmacsWiki
+;  (autoload 'enable-paredit-mode "paredit" "Turn on pseudo-structural editing of Lisp code." t)
+;  (add-hook 'emacs-lisp-mode-hook       #'enable-paredit-mode)
+;  (add-hook 'eval-expression-minibuffer-setup-hook #'enable-paredit-mode)
+;  (add-hook 'ielm-mode-hook             #'enable-paredit-mode)
+;  (add-hook 'lisp-mode-hook             #'enable-paredit-mode)
+;  (add-hook 'lisp-interaction-mode-hook #'enable-paredit-mode)
+;  (add-hook 'scheme-mode-hook           #'enable-paredit-mode))
 
 ;; Common Lisp
 (setq inferior-lisp-program "sbcl") ; set default common lisp inferior
