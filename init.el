@@ -2,7 +2,7 @@
 
 ;; This is a Lisp program from an initialization file for Emacs by Gasahorlogo.
 ;; Birth:  2024-09-30 18:50:42.142222749 +0800
-;; Modify: 2025-01-05 20 +0800
+;; Modify: 2025-07-11 16 +0800
 
 ;; References:
 ;; 1) GNU Emacs Manual 50.4 The Emacs Initialization File
@@ -14,6 +14,8 @@
  (lambda (dir)
    (add-to-list 'load-path (expand-file-name dir user-emacs-directory)))
  '("lisp"))
+
+(add-hook 'text-mode-hook #'auto-fill-mode)
 
 (tool-bar-mode 0)
 (menu-bar-mode 0)
